@@ -1,12 +1,30 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "page/web/index",
+
+
+    "page/account/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "LaraCMS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "page/web/index",
+        "text": "首页",
+        "iconPath": "/image/icon/homepage.png",
+        "selectedIconPath": "/image/icon/homepage-selected.png"
+      },
+      {
+        "pagePath": "page/account/index",
+        "text": "用户",
+        "iconPath": "/image/icon/user.png",
+        "selectedIconPath": "/image/icon/user-selected.png"
+      }
+    ]
   }
 }
