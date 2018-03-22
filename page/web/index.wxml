@@ -1,1 +1,41 @@
-<text>web/index</text>
+<view class="page-body page-index">
+    <view class="page-section">
+
+    <!-- <view class="index-box">
+        <image class="index-box-img" src="../../../image/avatar.jpg" background-size="cover"></image>
+        <view class="index-box-ctn">
+          <view class="index-box-title">稀饭不加糖</view>
+          <view class="index-box-desc">Codding 改变世界！</view>
+        </view>
+    </view>
+
+    <view class="index-box">
+        <image class="index-box-img" src="../../../image/avatar.jpg" background-size="cover"></image>
+        <view class="index-box-ctn">
+          <view class="index-box-title">稀饭不加糖</view>
+          <view class="index-box-desc">Codding 改变世界！</view>
+        </view>
+    </view> -->
+
+  <block wx:if="{{data}}">
+    <view class="index-box" wx:for="{{data}}">
+        <image class="index-box-img" src="{{item.thumb}}" background-size="cover"></image>
+        <view class="index-box-ctn">
+          <view class="index-box-title">{{item.title}}</view>
+          <view class="index-box-desc">{{item.desription}}</view>
+        </view>
+    </view>
+  </block>
+  <block wx:if="{{!data}}">
+    <view>暂无数据.</view>
+  </block>
+
+  <block wx:if="{{data}}">
+    <view class="index-item-message">没有数据了...</view>
+  </block>
+  <block wx:if="{{!data}}">
+    <view class="index-item-message">加载更多...</view>
+  </block>
+
+    </view>
+</view>

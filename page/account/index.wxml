@@ -1,1 +1,26 @@
-<text>account/index</text>
+<view class="page-body page-user">
+    <view class="page-section">
+
+    <view class="user-box">
+        <image class="user-box-img" src="../../../image/avatar.jpg" background-size="cover"></image>
+        <view class="user-box-ctn">
+          <view class="user-box-title">稀饭不加糖</view>
+          <view class="user-box-desc">Codding 改变世界！</view>
+        </view>
+    </view>
+
+      <view class="kind-list-item-bd kind-list-item-bd-show">
+        <view class="navigator-box navigator-box-show">
+            <navigator url="/pages/setting/setting" class="navigator">
+              <view class="navigator-text">设置</view>
+              <view class="navigator-arrow"></view>
+            </navigator>
+        </view>
+      </view>
+
+      <view class="btn-area">
+        <button type="warn" formType="submit">退出</button>
+      </view>
+
+    </view>
+</view>

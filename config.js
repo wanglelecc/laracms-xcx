@@ -12,6 +12,9 @@ var config = {
     // 登录地址，用于建立会话
     loginUrl: `https://${host}/login`,
 
+    // 文章地址
+    articleUrl: `https://${host}/articles/1`,
+
     // 测试的请求地址，用于测试会话
     requestUrl: `https://${host}/testRequest`,
 

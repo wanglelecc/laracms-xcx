@@ -1,1 +1,26 @@
 @import "../common/index.wxss";
+
+.user-box{
+  margin-bottom: 40rpx;
+  padding: 20rpx 30rpx;
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+}
+.user-box-img{
+  margin-right: 46rpx;
+  width:150rpx;
+  height:150rpx;
+  border-radius: 10rpx;
+}
+.user-box-ctn{
+  flex-shrink: 100;
+}
+.user-box-title{
+  font-size: 34rpx;
+}
+.user-box-desc{
+  margin-top: 12rpx;
+  font-size: 26rpx;
+  color: #888;
+}

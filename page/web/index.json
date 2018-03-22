@@ -1,3 +1,4 @@
 {
-    "navigationBarTitleText": "LaraCMS"
+    "navigationBarTitleText": "首页",
+    "enablePullDownRefresh":true
 }

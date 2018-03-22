@@ -1,1 +1,33 @@
 @import "../common/index.wxss";
+
+
+.index-box{
+  margin-bottom: 20rpx;
+  padding: 20rpx 30rpx;
+  display: flex;
+  align-items: center;
+  background-color: #FFF;
+}
+.index-box-img{
+  margin-right: 46rpx;
+  width:150rpx;
+  height:150rpx;
+  border-radius: 10rpx;
+}
+.index-box-ctn{
+  flex-shrink: 100;
+}
+.index-box-title{
+  font-size: 34rpx;
+}
+.index-box-desc{
+  margin-top: 12rpx;
+  font-size: 26rpx;
+  color: #888;
+}
+
+.index-item-message{
+  font-size: 22rpx;
+  text-align: center;
+  color:#888;
+}
