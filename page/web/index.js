@@ -74,6 +74,7 @@ Page({
           }
         }
         console.log('request success', result)
+        self.stopPullDownRefresh()
       },
 
       fail: function ({ errMsg }) {
@@ -81,6 +82,7 @@ Page({
         self.setData({
           loading: false
         })
+        self.stopPullDownRefresh()
       }
     })
   },

@@ -1,10 +1,10 @@
 <view class="page-body page-user">
     <view class="page-section">
-
+<block wx:if="{{hasUserInfo === true}}">
     <view class="user-box">
-        <image class="user-box-img" src="../../../image/avatar.jpg" background-size="cover"></image>
+        <image class="user-box-img" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
         <view class="user-box-ctn">
-          <view class="user-box-title">稀饭不加糖</view>
+          <view class="user-box-title">{{userInfo.nickName}}</view>
           <view class="user-box-desc">Codding 改变世界！</view>
         </view>
     </view>
@@ -21,6 +21,6 @@
       <view class="btn-area">
         <button type="warn" formType="submit">退出</button>
       </view>
-
+</block>
     </view>
 </view>
